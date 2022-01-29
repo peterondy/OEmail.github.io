@@ -1,0 +1,153 @@
+
+.color-w{
+    color: #2b1544;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-size : 4rem !important;
+}
+a.pt-3.fs {
+    font-size: x-large !important;
+}
+/*navbar style*/
+
+.navbar{
+    top: 0 !important;
+    height: 100px;
+    box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    position: fixed !important;
+    z-index: 2;
+}
+.navbar-toggler{
+    float: left !important;
+}
+
+.container-fluid h3{
+    width: 50%;
+    margin: 0 15% 0 35%;
+}
+a.navbar-brand{
+    width: 11rem;
+}
+.navbar-brand{
+    color: #2b1544 !important;
+    width: 50%;
+    margin: 0 15% 0 35%;
+}
+.right-navbar{
+    margin-top: 100px !important;
+    float: right !important;
+    background-color: #2b1544;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    transition: 3s;
+    z-index: 3;
+    position: fixed;
+}
+.right-navbar ul li:hover{
+    background-color: #fff;
+    color: #2b1544;
+}
+.right-navbar ul li a{
+    color: #fff;
+}
+.right-navbar ul li a:hover{
+    color: #2b1544;
+}
+.right-navbar ul.navbar-nav{
+    display: block;
+
+}
+#btn-close{
+    cursor : pointer;
+    background-color: beige;
+    font-size: 1rem;
+    padding: 5px 10px;
+    padding-top: 1;
+    float: right;
+}
+#btn-close:hover{
+    background-color: red;
+    color: #fff;
+}
+.fa-caret-square-up{
+    font-size: 2rem;
+    transform: rotate(90deg);
+}
+.container-fluid img{
+    float: left !important;
+    height: 100px !important;
+    width: 95%;
+}
+a#login{
+    text-decoration: none;
+    background-color: #2b1544;
+    color: #fff;
+    padding: 5px 10px;
+}
+a#login:hover{
+    background-color: #fff;
+    color: #2b1544;
+}
+/*container style*/
+.container{
+    margin-top: 120px !important;
+    background-image: url('assets/img/body_background.jpeg') !important;
+    z-index: 1;
+}
+
+.card img.card-img-top{
+    width: 100%;
+    height: 270px !important;
+}
+p.more-p{
+    font-size: 1.5rem;
+}
+a.more-link{
+    background-color: #2b1544;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+a.more-link:hover{
+    background-color: #fff;
+    color: #2b1544;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+/*about style*/
+.ab{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image : url("<?php echo $img .'background_tech.jpg'; ?>");
+    height : 311px;
+    opacity: 0.6;
+}
+
+/*footer style*/
+footer{
+    background-color: #2b1544 !important;
+    color: #fff;
+}
+footer ul li a{
+    color: #fff;
+}
+footer ul li a:hover{
+    background-color: #fff;
+    color: #2b1544;
+}
+/*login style*/
+form.form-signin {
+    width: 100% !important;
+}
+a#toggle-login-btn,#toggle-signin-btn {
+    cursor: pointer;
+    background-color: #2b1544;
+    color: #fff;
+}
